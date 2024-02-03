@@ -15,17 +15,22 @@ let detailsLast_wall = document.getElementById("detailsLast_wall");
 let lastPage = false;
 let detailsPageTwo = false;
 let heigthFormula = window.innerHeight * 0.8;
-document.getElementById("ul").style.width = window.innerWidth + 'px';
-document.getElementById("firstPage").style.height = heigthFormula + 'px';
-document.getElementById("secondPage").style.height = heigthFormula + 'px';
-document.getElementById("thirdPage").style.height = heigthFormula + 'px';
-document.getElementById("fourthPage").style.height = heigthFormula + 'px';
-document.getElementById("fifthPage").style.height = heigthFormula + 'px';
-document.getElementById("sixthPage").style.height = heigthFormula + 'px';
-document.getElementById("seventhPage").style.height = heigthFormula + 'px';
-document.getElementById("eigthPage").style.height = heigthFormula + 'px';
-document.getElementById("ninthPage").style.height = heigthFormula + 'px';
-document.getElementById("tenthPage").style.height = heigthFormula + 'px';
+let ulHeightFormula = window.innerHeight * 0.03;
+let screenWidth = window.innerWidth;
+if (screenWidth <= 800) {
+    document.getElementById("ul").style.width = window.innerWidth + 'px';
+    document.getElementById("ul").style.height = ulHeightFormula + 'px';
+    document.getElementById("firstPage").style.height = heigthFormula + 'px';
+    document.getElementById("secondPage").style.height = heigthFormula + 'px';
+    document.getElementById("thirdPage").style.height = heigthFormula + 'px';
+    document.getElementById("fourthPage").style.height = heigthFormula + 'px';
+    document.getElementById("fifthPage").style.height = heigthFormula + 'px';
+    document.getElementById("sixthPage").style.height = heigthFormula + 'px';
+    document.getElementById("seventhPage").style.height = heigthFormula + 'px';
+    document.getElementById("eigthPage").style.height = heigthFormula + 'px';
+    document.getElementById("ninthPage").style.height = heigthFormula + 'px';
+    document.getElementById("tenthPage").style.height = heigthFormula + 'px';
+}
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
 
