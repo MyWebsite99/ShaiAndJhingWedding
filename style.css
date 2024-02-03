@@ -73,6 +73,7 @@ ul {
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         height: 3%;
         font-size: 0.8rem;
     }
@@ -139,12 +140,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 20% 0 30% 0;
     }
@@ -161,12 +162,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -184,12 +185,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
         position: relative;
@@ -199,6 +200,7 @@ ul {
 #pageSix_wall {
     position: absolute;
     width: 100%;
+    width: -webkit-calc(100% - 0px);
     top: 0;
     height: 85%;
 }
@@ -221,6 +223,7 @@ ul {
     @media screen and (max-width: 800px) {
         position: absolute;
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         bottom: 5%;
     }
 }
@@ -256,12 +259,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -279,12 +282,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -370,12 +373,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -403,6 +406,7 @@ ul {
 #detailsLast_wall {
     position: absolute;
     width: 100%;
+    width: -webkit-calc(100% - 0px);
     top: 0;
     height: 85%;
 }
@@ -418,12 +422,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -441,12 +445,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -464,12 +468,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 30% 0;
     }
@@ -486,12 +490,12 @@ ul {
 
     @media screen and (min-width: 800px) {
         height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
         width: 41.80rem;
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
+        width: -webkit-calc(100% - 0px);
         padding: 70% 0 70% 0;
         margin: 0 0 40% 0;
     }
