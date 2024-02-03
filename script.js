@@ -15,16 +15,16 @@ let detailsLast_wall = document.getElementById("detailsLast_wall");
 let lastPage = false;
 let detailsPageTwo = false;
 document.getElementById("ul").style.width = window.innerWidth + 'px';
-document.getElementById("firstPage").style.width = window.innerWidth + 'px';
-document.getElementById("secondPage").style.width = window.innerWidth + 'px';
-document.getElementById("thirdPage").style.width = window.innerWidth + 'px';
-document.getElementById("fourthPage").style.width = window.innerWidth + 'px';
-document.getElementById("fifthPage").style.width = window.innerWidth + 'px';
-document.getElementById("sixthPage").style.width = window.innerWidth + 'px';
-document.getElementById("seventhPage").style.width = window.innerWidth + 'px';
-document.getElementById("eightPage").style.width = window.innerWidth + 'px';
-document.getElementById("ninthPage").style.width = window.innerWidth + 'px';
-document.getElementById("tenthPage").style.width = window.innerWidth + 'px';
+document.getElementById("firstPage").style.height = window.innerHeight + 'px';
+document.getElementById("secondPage").style.height = window.innerHeight + 'px';
+document.getElementById("thirdPage").style.height = window.innerHeight + 'px';
+document.getElementById("fourthPage").style.height = window.innerHeight + 'px';
+document.getElementById("fifthPage").style.height = window.innerHeight + 'px';
+document.getElementById("sixthPage").style.height = window.innerHeight + 'px';
+document.getElementById("seventhPage").style.height = window.innerHeight + 'px';
+document.getElementById("eightPage").style.height = window.innerHeight + 'px';
+document.getElementById("ninthPage").style.height = window.innerHeight + 'px';
+document.getElementById("tenthPage").style.height = window.innerHeight + 'px';
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
 
