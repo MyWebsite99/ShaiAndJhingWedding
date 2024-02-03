@@ -14,6 +14,17 @@ let pageSix_wall = document.getElementById("pageSix_wall");
 let detailsLast_wall = document.getElementById("detailsLast_wall");
 let lastPage = false;
 let detailsPageTwo = false;
+document.getElementById("ul").style.width = window.innerWidth + 'px';
+document.getElementById("firstPage").style.width = window.innerWidth + 'px';
+document.getElementById("secondPage").style.width = window.innerWidth + 'px';
+document.getElementById("thirdPage").style.width = window.innerWidth + 'px';
+document.getElementById("fourthPage").style.width = window.innerWidth + 'px';
+document.getElementById("fifthPage").style.width = window.innerWidth + 'px';
+document.getElementById("sixthPage").style.width = window.innerWidth + 'px';
+document.getElementById("seventhPage").style.width = window.innerWidth + 'px';
+document.getElementById("eightPage").style.width = window.innerWidth + 'px';
+document.getElementById("ninthPage").style.width = window.innerWidth + 'px';
+document.getElementById("tenthPage").style.width = window.innerWidth + 'px';
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
 
