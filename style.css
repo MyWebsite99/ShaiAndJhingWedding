@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color: rgb(87, 18, 18);
+    background-color: green;
 
     @media screen and (min-width: 800px) {
         display: -webkit-box;
@@ -26,6 +26,14 @@ body {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+}
+
+.fix {
+    @media screen and (max-width: 800px) {
+        position: fixed;
+        height: 100svh;
+        width: 100svh;
     }
 }
 
