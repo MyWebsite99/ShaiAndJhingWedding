@@ -14,6 +14,8 @@ let pageSix_wall = document.getElementById("pageSix_wall");
 let detailsLast_wall = document.getElementById("detailsLast_wall");
 let lastPage = false;
 let detailsPageTwo = false;
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
 
