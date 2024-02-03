@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Shai And Jhing Wedding</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <a onclick="scrollHome()">Home</a>
+            <a onclick="scrollEntourage()">Entourage</a>
+            <a onclick="scrollVenue()">Venue</a>
+            <a onclick="scrollDetails()">Details</a>
+            <a onclick="scrollDressCode()">DressCode</a>
+        </ul>
+    </header>
+    <div id="mainFrame">
+        <img id="popUp" src="files/Pop-Up.jpg">
+        <button onclick="AcceptBtn()" id="popUp_btn">Accept</button>
+        <div onclick="scrollHomeTwo()" id='firstPage' class="firstPage">
+        </div>
+        <div onclick="scrollEntourage()" id='secondPage' class="secondPage">
+        </div>
+        <div id='thirdPage' class="thirdPage">
+            <div onclick="scrollVenueThree()" id="pageSix_wall"></div>
+            <div class="btn_group">
+                <button id="pageOne_display" class="pageOne_btn" onclick="pageOne()"><p id="btn_pages"><img id="home-symbol" src='files/home-button.png'></p></button>
+                <button id="pageTwo_display" class="pageTwo_btn" onclick="pageTwo()"><p id="btn_pages">1</p></button>
+                <button id="pageThree_display" class="pageThree_btn" onclick="pageThree()"><p id="btn_pages">2</p></button>
+                <button id="pageFour_display" class="pageFour_btn" onclick="pageFour()"><p id="btn_pages">3</p></button>
+                <button id="pageFive_display" class="pageFive_btn" onclick="pageFive()"><p id="btn_pages">4</p></button>
+                <button id="pageSix_display" class="pageSix_btn" onclick="pageSix()"><p id="btn_pages">5</p></button>
+            </div>
+        </div>
+        <div onclick="scrollVenueTwo()" id='fourthPage' class="fourthPage">
+        </div>
+        <div onclick="scrollDetails()" id='fifthPage' class="fifthPage">
+            <div class="venueLocation">
+                <p class="venueTitle">Balai Katerina Resort Villa</p>
+                <p class="venueAddress">888 P.Paterno St., Barangay Dela Paz, Binãn</p>
+            </div>
+            <img onclick="imgSliderOne()" src="files/venue.jpg" class="venueOne">
+            <img onclick="imgSliderTwo()" src="files/venue2.jpg" class="venueTwo">
+            <img onclick="imgSliderThree()" src="files/venue3.jpg" class="venueThree">
+        </div>
+        <div id='sixthPage' class="sixthPage">
+            <div onclick="detailsLast()" id="detailsLast_wall"></div>
+            <img onclick="detailsHome()" id="arrow-left" src="files/arrow-left.png">
+            <img onclick="detailsOne()" id="arrow-right" src="files/arrow-right.png">
+        </div>
+        <div onclick="scrollDressCodeOne()" id='seventhPage' class="seventhPage">
+        </div>
+        <div onclick="scrollDressCodeTwo()" id='eightPage' class="eightPage">
+        </div>
+        <div onclick="scrollDressCodeThree()" id='ninthPage' class="ninthPage">
+        </div>
+        <div id='tenthPage' class="tenthPage">
+        </div>
+    </div>
+</body>
+</html>
