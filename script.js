@@ -16,10 +16,11 @@ let ul = document.getElementById("ul");
 let lastPage = false;
 let detailsPageTwo = false;
 let heigthFormula = window.innerHeight * 0.8;
-let padFormula = heightPadForm + 'px 0px ' + heightPadForm + 'px 0px'; 
-let heightPadForm = window.innerHeight * 0.3; 
 let ulHeightFormula = window.innerHeight * 0.03;
+let heightPadForm = window.innerHeight * 0.3; 
 let screenWidth = window.innerWidth;
+let padFormula = heightPadForm + 'px 0px ' + heightPadForm + 'px 0px'; 
+
 if (screenWidth <= 800) {
     ul.style.width = window.innerWidth + 'px';
     ul.style.height = ulHeightFormula + 'px';
