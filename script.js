@@ -121,7 +121,7 @@ function pageTwo() {
     if (screenWidth <= 800) {
         thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 1_page-0001.jpg')";
     } else {
-        thirdPage.style.backgroundImage = "url('files/Entourage Page 1_page-0001.jpg')";
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 1_page-0001.png')";
     }
 
 }
@@ -153,7 +153,7 @@ function pageSix() {
     if (screenWidth <= 800) {
         thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 5_pages-to-jpg-0001.jpg')";
     } else {
-        thirdPage.style.backgroundImage = "url('files/Entourage Page 5_pages-to-jpg-0001.jpg')";
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 5_pages-to-jpg-0001.png')";
     }
 }
 
