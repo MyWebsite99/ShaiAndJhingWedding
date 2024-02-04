@@ -128,9 +128,7 @@ ul {
     @media screen and (max-width: 800px) {
         height: 2.5rem;
         width: 20%;
-        left: 0% !important;
         top: 55%;
-        margin: 0 40% 0 40%;
     }
 }
 
