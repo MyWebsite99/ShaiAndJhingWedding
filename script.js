@@ -54,8 +54,18 @@ if (screenWidth <= 800) {
     ninthPage.style.height = heigthFormula + 'px';
     tenthPage.style.height = heigthFormula + 'px';
     arrow_left.style.bottom = lowerBtnTwo + 'px';
-    arrow_left.style.zIndex = 500;
     arrow_right.style.bottom = lowerBtnTwo + 'px';
+    arrow_left.style.zIndex = 500;
+    firstPage.style.backgroundImage = url('longFiles/Invitation\ Cover_page-0001.jpg');
+    secondPage.style.backgroundImage = url('longFiles/Invitation\ Page\ 2_page-0001.jpg');
+    thirdPage.style.backgroundImage = url('longFiles/The\ Entourage\ Cover_page-0001.jpg');
+    fourthPage.style.backgroundImage = url('longFiles/The Venue Cover_page-0001.jpg');
+    fifthPage.style.backgroundImage = url('longFiles/The Venue Cover_page-0001.jpg');
+    sixthPage.style.backgroundImage = url('Wedding Details Cover_page-0001.jpg');
+    seventhPage.style.backgroundImage = url('longFiles/Dresscode Cover_page-0001.jpg');
+    eightPage.style.backgroundImage = url('longFiles/Dresscode Page 1_page-0001.jpg');
+    ninthPage.style.backgroundImage = url('longFiles/Dresscode Page 2_page-0001.jpg');
+    tenthPage.style.backgroundImage = url('longFiles/Dresscode Page 3_page-0001.jpg');
 }
 
 MusicOST = new Audio('files/BackgroundOST.mp3');

@@ -133,22 +133,22 @@ ul {
 }
 
 .firstPage {
+    background-image: url('files/Invitation\ Cover_page-0001.jpg');
     background-size: cover;
 
     @media screen and (min-width: 800px) {
         height: 100vh;
         width: 41.80rem;
-        background-image: url('files/Invitation\ Cover_page-0001.jpg');
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Invitation\ Cover_page-0001.jpg');
     }
 }
 
 .secondPage {
+    background-image: url('files/Invitation\ Page\ 2_page-0001.jpg');
     background-size: cover;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -159,17 +159,16 @@ ul {
     @media screen and (min-width: 800px) {
         height: 100vh;
         width: 41.80rem;
-        background-image: url('files/Invitation\ Page\ 2_page-0001.jpg');
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Invitation\ Page\ 2_page-0001.jpg');
     }
 }
 
 .thirdPage {
+    background-image: url('files/The\ Entourage\ Cover_page-0001.jpg');
     background-size: cover;
     position: relative;
     -webkit-animation: fade-in;
@@ -181,14 +180,12 @@ ul {
     @media screen and (min-width: 800px) {
         height: 100vh;
         width: 41.80rem;
-        background-image: url('files/The\ Entourage\ Cover_page-0001.jpg');
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
         position: relative;
-        background-image: url('longFiles/The\ Entourage\ Cover_page-0001.jpg');
     }
 }
 
@@ -244,6 +241,7 @@ ul {
 }
 
 .fourthPage {
+    background-image: url('files/The Venue Cover_page-0001.jpg');
     background-size: cover;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -252,7 +250,6 @@ ul {
     animation-range-end: contain -50px;
 
     @media screen and (min-width: 800px) {
-        background-image: url('files/The Venue Cover_page-0001.jpg');
         height: 100vh;
         width: 41.80rem;
     }
@@ -260,11 +257,11 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/The\ Venue\ Cover_page-0001.jpg');
     }
 }
 
 .fifthPage {
+    background-image: url('files/The Venue Cover_page-0001.jpg');
     background-size: cover;
     position: relative;
     -webkit-animation: fade-in;
@@ -276,13 +273,11 @@ ul {
     @media screen and (min-width: 800px) {
         height: 100vh;
         width: 41.80rem;
-        background-image: url('files/The Venue Cover_page-0001.jpg');
     }
 
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/The\ Venue\ Cover_page-0001.jpg');
     }
 }
 
@@ -355,6 +350,7 @@ ul {
 }
 
 .sixthPage {
+    background-image: url('files/Wedding Details Cover_page-0001.jpg');
     background-size: cover;
     position: relative;
     -webkit-animation: fade-in;
@@ -364,7 +360,6 @@ ul {
     animation-range-end: contain -50px;
 
     @media screen and (min-width: 800px) {
-        background-image: url('files/Wedding Details Cover_page-0001.jpg');
         height: 100vh;
         width: 41.80rem;
     }
@@ -372,7 +367,6 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Wedding\ Details\ Cover_page-0001.jpg');
     }
 }
 
@@ -407,6 +401,7 @@ ul {
 }
 
 .seventhPage {
+    background-image: url('files/Dresscode Cover_page-0001.jpg');
     background-size: cover;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -415,7 +410,6 @@ ul {
     animation-range-end: contain -50px;
 
     @media screen and (min-width: 800px) {
-        background-image: url('files/Dresscode Cover_page-0001.jpg');
         height: 100vh;
         width: 41.80rem;
     }
@@ -423,11 +417,11 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Dresscode\ Cover_page-0001.jpg');
     }
 }
 
 .eightPage {
+    background-image: url('files/Dresscode Page 1_page-0001.jpg');
     background-size: cover;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -437,7 +431,6 @@ ul {
     cursor: pointer;
 
     @media screen and (min-width: 800px) {
-        background-image: url('files/Dresscode Page 1_page-0001.jpg');
         height: 100vh;
         width: 41.80rem;
     }
@@ -445,11 +438,11 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Dresscode\ Page\ 1_page-0001.jpg');
     }
 }
 
 .ninthPage {
+    background-image: url('files/Dresscode Page 2_page-0001.jpg');
     background-size: cover;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -459,7 +452,6 @@ ul {
     cursor: pointer;
 
     @media screen and (min-width: 800px) {
-        background-image: url('files/Dresscode Page 2_page-0001.jpg');
         height: 100vh;
         width: 41.80rem;
     }
@@ -467,11 +459,11 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Dresscode\ Page\ 2_page-0001.jpg');
     }
 }
 
 .tenthPage {
+    background-image: url('files/Dresscode Page 3_page-0001.jpg');
     background-size: cover;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -480,7 +472,6 @@ ul {
     animation-range-end: contain -50px;
 
     @media screen and (min-width: 800px) {
-        background-image: url('files/Dresscode Page 3_page-0001.jpg');
         height: 100vh;
         width: 41.80rem;
     }
@@ -488,6 +479,5 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
-        background-image: url('longFiles/Dresscode\ Page\ 3_page-0001.jpg');
     }
 }
