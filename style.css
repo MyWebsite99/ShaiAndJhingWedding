@@ -144,6 +144,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -164,6 +167,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -186,6 +192,9 @@ ul {
         width: 100%;
         padding: 70% 0 70% 0;
         position: relative;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -217,6 +226,9 @@ ul {
         position: absolute;
         width: 100%;
         bottom: 5%;
+        @media screen and (min-height: 670px) {
+            bottom: 1vh !important;
+        }
     }
 }
 
@@ -257,6 +269,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -278,6 +293,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -302,6 +320,12 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+
+    @media screen and (max-width: 800px) {
+        @media screen and (min-height: 670px) {
+            top: 37vh !important;
+        }
+    }
 }
 
 .venueTitle {
@@ -336,6 +360,11 @@ ul {
     width: 45%;
     margin: 3%;
     bottom: 7%;
+    @media screen and (max-width: 800px) {
+        @media screen and (min-height: 670px) {
+            bottom: 1vh !important;
+        }
+    }
 }
 
 .venueTwo {
@@ -347,6 +376,12 @@ ul {
     height: 39%;
     width: 94%;
     margin: 3%;
+
+    @media screen and (max-width: 800px) {
+        @media screen and (min-height: 670px) {
+            top: 8vh !important;
+        }
+    }
 }
 
 .sixthPage {
@@ -367,6 +402,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -381,6 +419,10 @@ ul {
 
     @media screen and (min-width: 800px) {
         bottom: 0;
+    }
+
+    @media screen and (max-width: 800px) {
+        bottom: 1vh !important;
     }
 }
 
@@ -417,6 +459,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -438,6 +483,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -459,6 +507,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+        }
     }
 }
 
@@ -479,5 +530,9 @@ ul {
     @media screen and (max-width: 800px) {
         width: 100%;
         padding: 70% 0 70% 0;
+        @media screen and (min-height: 670px) {
+            height: 70vh !important;
+            margin-bottom: 30vh !important;
+        }
     }
 }

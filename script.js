@@ -18,7 +18,6 @@ let popUp = document.getElementById("popUp");
 let popUp_btn = document.getElementById("popUp_btn");
 let detailsPageTwo = true;
 let heigthFormula = window.innerHeight * 0.93;
-let bigHeigthFormula = window.innerHeight * 0.7;
 let ulHeightFormula = window.innerHeight * 0.03;
 let popUpHeightFormula = window.innerHeight * 0.4;
 let popUpTopFormula = window.innerHeight * 0.3;
@@ -29,8 +28,8 @@ let popUp_btnLeftFormula = window.innerWidth * 0.40;
 let btnHeightMarForm = window.innerHeight * 0.03;
 let lowerBtn = window.innerHeight * 0.1;
 let lowerBtnTwo = window.innerHeight * 0.05;
+let padBot = window.innerHeight * 0.1;
 let screenWidth = window.innerWidth; 
-let screenHeight = window.innerHeight;
 
 if (screenWidth <= 800) {
     popUp.style.width = popUpWidthFormula + 'px';
@@ -55,6 +54,7 @@ if (screenWidth <= 800) {
     eightPage.style.height = heigthFormula + 'px';
     ninthPage.style.height = heigthFormula + 'px';
     tenthPage.style.height = heigthFormula + 'px';
+    tenthPage.style.marginBottom = padBot + 'px';
     arrow_left.style.bottom = lowerBtnTwo + 'px';
     arrow_right.style.bottom = lowerBtnTwo + 'px';
     arrow_left.style.zIndex = 500;
@@ -68,19 +68,6 @@ if (screenWidth <= 800) {
     eightPage.style.backgroundImage = "url('longFiles/Dresscode Page 1_page-0001.jpg')";
     ninthPage.style.backgroundImage = "url('longFiles/Dresscode Page 2_page-0001.jpg')";
     tenthPage.style.backgroundImage = "url('longFiles/Dresscode Page 3_page-0001.jpg')";
-}
-
-if (screenHeight >= 670 && screenHeight <= 940) {
-    firstPage.style.height = bigHeigthFormula + 'px';
-    secondPage.style.height = bigHeigthFormula + 'px';
-    thirdPage.style.height = bigHeigthFormula + 'px';
-    fourthPage.style.height = bigHeigthFormula + 'px';
-    fifthPage.style.height = bigHeigthFormula + 'px';
-    sixthPage.style.height = bigHeigthFormula + 'px';
-    seventhPage.style.height = bigHeigthFormula + 'px';
-    eightPage.style.height = bigHeigthFormula + 'px';
-    ninthPage.style.height = bigHeigthFormula + 'px';
-    tenthPage.style.height = bigHeigthFormula + 'px';
 }
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
