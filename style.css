@@ -126,7 +126,6 @@ ul {
     }
 
     @media screen and (max-width: 800px) {
-        position: absolute;
         height: 2.5rem;
         width: 20%;
         left: 0% !important;
@@ -321,7 +320,7 @@ ul {
     }
 
     @media screen and (max-width: 800px) {
-        font-size: 150%;
+        font-size: 1.5rem;
     }
 }
 
@@ -334,7 +333,7 @@ ul {
     }
 
     @media screen and (max-width: 800px) {
-        font-size: 90%;
+        font-size: 1.2rem;
     }
 }
 
