@@ -16,8 +16,8 @@ let ul = document.getElementById("ul");
 let btn_group = document.getElementById("btn_group");
 let popUp = document.getElementById("popUp");
 let popUp_btn = document.getElementById("popUp_btn");
-let detailsPageTwo = false;
-let heigthFormula = window.innerHeight * 0.8;
+let detailsPageTwo = true;
+let heigthFormula = window.innerHeight * 0.93;
 let ulHeightFormula = window.innerHeight * 0.03;
 let popUpHeightFormula = window.innerHeight * 0.4;
 let popUpTopFormula = window.innerHeight * 0.3;
@@ -25,8 +25,9 @@ let popUpWidthFormula = window.innerWidth * 0.9;
 let popUp_btnHeightFormula = window.innerHeight * 0.03;
 let popUp_btnBottomFormula = window.innerHeight * 0.38;
 let popUp_btnLeftFormula = window.innerWidth * 0.40;
-let heightMarForm = window.innerHeight * 0.1; 
 let btnHeightMarForm = window.innerHeight * 0.03;
+let lowerBtn = window.innerHeight * 0.1;
+let lowerBtnTwo = window.innerHeight * 0.05;
 let screenWidth = window.innerWidth; 
 
 if (screenWidth <= 800) {
@@ -40,27 +41,21 @@ if (screenWidth <= 800) {
     ul.style.width = window.innerWidth + 'px';
     ul.style.height = ulHeightFormula + 'px';
     btn_group.style.height = heigthFormula + 'px';
+    btn_group.style.bottom = lowerBtn + 'px';
     btn_group.style.zIndex = 100;
     firstPage.style.height = heigthFormula + 'px';
-    firstPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     secondPage.style.height = heigthFormula + 'px';
-    secondPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     thirdPage.style.height = heigthFormula + 'px';
-    thirdPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     fourthPage.style.height = heigthFormula + 'px';
-    fourthPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     fifthPage.style.height = heigthFormula + 'px';
-    fifthPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     sixthPage.style.height = heigthFormula + 'px';
-    sixthPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     seventhPage.style.height = heigthFormula + 'px';
-    seventhPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     eightPage.style.height = heigthFormula + 'px';
-    eightPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     ninthPage.style.height = heigthFormula + 'px';
-    ninthPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
     tenthPage.style.height = heigthFormula + 'px';
-    tenthPage.style.margin = heightMarForm + 'px 0px ' + heightMarForm + 'px 0px'; 
+    arrow_left.style.bottom = lowerBtnTwo + 'px';
+    arrow_left.style.zIndex = 500;
+    arrow_right.style.bottom = lowerBtnTwo + 'px';
 }
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
@@ -104,45 +99,79 @@ function scrollDressCodeThree() {
 }
 
 function pageOne() {
-    thirdPage.style.backgroundImage = "url('files/The Entourage Cover_page-0001.jpg')";
+    if (screenWidth <= 800) {
+        thirdPage.style.backgroundImage = "url('longFiles/The Entourage Cover_page-0001.jpg')";
+    } else {
+        thirdPage.style.backgroundImage = "url('files/The Entourage Cover_page-0001.jpg')";
+    }
 }
 function pageTwo() {
-    thirdPage.style.backgroundImage = "url('files/Entourage Page 1_page-0001.jpg')";
+    if (screenWidth <= 800) {
+        thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 1_page-0001.jpg')";
+    } else {
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 1_page-0001.jpg')";
+    }
+
 }
 function pageThree() {
-    thirdPage.style.backgroundImage = "url('files/Entourage Page 1 (Online)_page-0001.jpg')";
+    if (screenWidth <= 800) {
+        thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 1 (Online)_page-0001.jpg')";
+    } else {
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 1 (Online)_page-0001.jpg')";
+    }
+
 }
 function pageFour() {
-    thirdPage.style.backgroundImage = "url('files/Entourage Page 3_page-0001.jpg')";
+    if (screenWidth <= 800) {
+        thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 3_page-0001.jpg')";
+    } else {
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 3_page-0001.jpg')";
+    }
+
 }
 function pageFive() {
-    thirdPage.style.backgroundImage = "url('files/Entourage Page 4_page-0001.jpg')";
+    if (screenWidth <= 800) {
+        thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 4_page-0001.jpg')";
+    } else {
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 4_page-0001.jpg')";
+    }
+
 }
 function pageSix() {
-    thirdPage.style.backgroundImage = "url('files/Entourage Page 5_pages-to-jpg-0001.jpg')";
+    if (screenWidth <= 800) {
+        thirdPage.style.backgroundImage = "url('longFiles/Entourage Page 5_pages-to-jpg-0001.jpg')";
+    } else {
+        thirdPage.style.backgroundImage = "url('files/Entourage Page 5_pages-to-jpg-0001.jpg')";
+    }
 }
 
 function detailsHome() {
-    detailsLast_wall.style.cursor = "auto";
     if (detailsPageTwo === false) {
-    sixthPage.style.backgroundImage = "url('files/Wedding Details Cover_page-0001.jpg')";
-    detailsPageOne = false;
-    arrow_left.style.display = "none";}
-    if (detailsPageTwo === true) {
-        sixthPage.style.backgroundImage = "url('files/RSVP_page-0001.jpg')";
-        detailsPageTwo = false;
+        if (screenWidth <= 800) {
+            sixthPage.style.backgroundImage = "url('longFiles/RSVP_page-0001.jpg')";
+        } else {
+            sixthPage.style.backgroundImage = "url('files/RSVP_page-0001.jpg')";
+        }
+        arrow_left.style.display = "none";
         arrow_right.style.display = "block";
-    }
-}
+}}
 function detailsOne() {
-    arrow_left.style.display = "block";
-    sixthPage.style.backgroundImage = "url('files/RSVP_page-0001.jpg')";
     detailsTwo();
-    detailsPageTwo = true;
-}
-function detailsTwo() {
     if (detailsPageTwo === true) {
-    sixthPage.style.backgroundImage = "url('files/Gifts_page-0001.jpg')";
-    arrow_right.style.display = "none";
-    detailsLast_wall.style.cursor = "pointer";
+        detailsPageTwo = false;
+        if (screenWidth <= 800) {
+            sixthPage.style.backgroundImage = "url('longFiles/RSVP_page-0001.jpg')";
+        } else {
+            sixthPage.style.backgroundImage = "url('files/RSVP_page-0001.jpg')";
+        }
+}}
+function detailsTwo() {
+    if (detailsPageTwo === false) {
+        if (screenWidth <= 800) {
+            sixthPage.style.backgroundImage = "url('longFiles/Gifts_page-0001.jpg')";
+        } else {
+            sixthPage.style.backgroundImage = "url('files/Gifts_page-0001.jpg')";
+        }
+        arrow_right.style.display = "none";
+        arrow_left.style.display = "block";
 }}
