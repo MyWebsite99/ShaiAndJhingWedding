@@ -16,22 +16,34 @@ let ul = document.getElementById("ul");
 let btn_group = document.getElementById("btn_group");
 let popUp = document.getElementById("popUp");
 let popUp_btn = document.getElementById("popUp_btn");
-let lastPage = false;
 let detailsPageTwo = false;
+let mobileView = false;
 let heigthFormula = window.innerHeight * 0.8;
 let ulHeightFormula = window.innerHeight * 0.03;
-let popUpHeightFormula = window.innerHeight * 0.5;
+let popUpHeightFormula = window.innerHeight * 0.4;
+let popUpTopFormula = window.innerHeight * 0.3;
 let popUpWidthFormula = window.innerWidth * 0.9;
 let popUp_btnHeightFormula = window.innerHeight * 0.03;
-let popUp_btnBottomFormula = window.innerHeight * 0.43;
-let popUp_btnLeftFormula = window.innerWidth * 0.5;
+let popUp_btnBottomFormula = window.innerHeight * 0.38;
+let popUp_btnLeftFormula = window.innerWidth * 0.01;
 let heightMarForm = window.innerHeight * 0.1; 
 let btnHeightMarForm = window.innerHeight * 0.03;
-let screenWidth = window.innerWidth;
+let screenWidth = window.innerWidth; 
+const firstPageY = firstPage.getBoundingClientRect().top + window.scrollY + -100;
+const secondPageY = secondPage.getBoundingClientRect().top + window.scrollY + -100;
+const thirdPageY = thirdPage.getBoundingClientRect().top + window.scrollY + -150;
+const fourthPageY = fourthPage.getBoundingClientRect().top + window.scrollY + -180;
+const fifthPageY = fifthPage.getBoundingClientRect().top + window.scrollY + -200;
+const sixthPageY = sixthPage.getBoundingClientRect().top + window.scrollY + -250;
+const seventhPageY = seventhPage.getBoundingClientRect().top + window.scrollY + -300;
+const eightPageY = eightPage.getBoundingClientRect().top + window.scrollY + -300;
+const ninthPageY = ninthPage.getBoundingClientRect().top + window.scrollY + -350;
+const tenthPageY = tenthPage.getBoundingClientRect().top + window.scrollY + -300;
 
 if (screenWidth <= 800) {
     popUp.style.width = popUpWidthFormula + 'px';
     popUp.style.height = popUpHeightFormula + 'px';
+    popUp.style.top = popUpTopFormula + 'px';
     popUp.style.margin = '0px ' + btnHeightMarForm + 'px 0px ' + btnHeightMarForm + 'px';
     popUp_btn.style.bottom = popUp_btnBottomFormula + 'px';
     popUp_btn.style.left = popUp_btnLeftFormula + 'px';
@@ -71,70 +83,88 @@ function AcceptBtn() {
     MusicOST.loop = true;
 }
 
+if (screenWidth <= 800) {
+    mobileView = true;
+}
+
 function scrollHome() {
-    firstPage.scrollIntoView();
+    if (mobileView = false) {
+        firstPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: firstPageY});}
 }
 function scrollHomeTwo() {
-    secondPage.scrollIntoView();
+    if (mobileView = false) {
+        secondPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: secondPageY});}
 }
 function scrollEntourage() {
-    thirdPage.scrollIntoView();
+    if (mobileView = false) {
+        thirdPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: thirdPageY});}
 }
 function scrollVenue() {
-    fourthPage.scrollIntoView();
+    if (mobileView = false) {
+        fourthPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: fourthPageY});}
 }
 function scrollVenueTwo() {
-    fifthPage.scrollIntoView();
+    if (mobileView = false) {
+        fifthPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: fifthPageY});}
 }
-function scrollVenueThree() {
-    if (lastPage === true) {
-        fourthPage.scrollIntoView();
-}}
 function scrollDetails() {
-    sixthPage.scrollIntoView();
+    if (mobileView = false) {
+        sixthPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: sixthPageY});}
 }
 function scrollDressCode() {
-    seventhPage.scrollIntoView();
+    if (mobileView = false) {
+        seventhPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: seventhPageY});}
 }
 function scrollDressCodeOne() {
-    eightPage.scrollIntoView();
+    if (mobileView = false) {
+        eightPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: eightPageY});}
 }
 function scrollDressCodeTwo() {
-    ninthPage.scrollIntoView();
+    if (mobileView = false) {
+        ninthPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: ninthPageY});}
 }
 function scrollDressCodeThree() {
-    tenthPage.scrollIntoView();
+    if (mobileView = false) {
+        tenthPage.scrollIntoView();}
+    if (mobileView = true) {
+        window.scrollTo({top: tenthPageY});}
 }
 
 function pageOne() {
     thirdPage.style.backgroundImage = "url('files/The Entourage Cover_page-0001.jpg')";
-    lastPage = false;
-    pageSix_wall.style.cursor = "auto";
 }
 function pageTwo() {
     thirdPage.style.backgroundImage = "url('files/Entourage Page 1_page-0001.jpg')";
-    lastPage = false;
-    pageSix_wall.style.cursor = "auto";
 }
 function pageThree() {
     thirdPage.style.backgroundImage = "url('files/Entourage Page 1 (Online)_page-0001.jpg')";
-    lastPage = false;
-    pageSix_wall.style.cursor = "auto";
 }
 function pageFour() {
     thirdPage.style.backgroundImage = "url('files/Entourage Page 3_page-0001.jpg')";
-    lastPage = false;
-    pageSix_wall.style.cursor = "auto";
 }
 function pageFive() {
     thirdPage.style.backgroundImage = "url('files/Entourage Page 4_page-0001.jpg')";
-    lastPage = false;
-    pageSix_wall.style.cursor = "auto";
 }
 function pageSix() {
     thirdPage.style.backgroundImage = "url('files/Entourage Page 5_pages-to-jpg-0001.jpg')";
-    lastPage = true;
-    pageSix_wall.style.cursor = "pointer";
 }
 
 function detailsHome() {
@@ -163,5 +193,5 @@ function detailsTwo() {
 }}
 function detailsLast() {
         if (detailsPageTwo === true) {
-        seventhPage.scrollIntoView();
+            window.scrollTo({top: seventhPageY});
 }}
