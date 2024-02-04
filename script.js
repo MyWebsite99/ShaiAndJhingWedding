@@ -25,7 +25,7 @@ let popUpTopFormula = window.innerHeight * 0.3;
 let popUpWidthFormula = window.innerWidth * 0.9;
 let popUp_btnHeightFormula = window.innerHeight * 0.03;
 let popUp_btnBottomFormula = window.innerHeight * 0.38;
-let popUp_btnLeftFormula = window.innerWidth * 0.01;
+let popUp_btnLeftFormula = window.innerWidth * 0.45;
 let heightMarForm = window.innerHeight * 0.1; 
 let btnHeightMarForm = window.innerHeight * 0.03;
 let screenWidth = window.innerWidth; 
@@ -90,61 +90,61 @@ if (screenWidth <= 800) {
 function scrollHome() {
     if (mobileView = false) {
         firstPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: firstPageY});}
 }
 function scrollHomeTwo() {
     if (mobileView = false) {
         secondPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: secondPageY});}
 }
 function scrollEntourage() {
     if (mobileView = false) {
         thirdPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: thirdPageY});}
 }
 function scrollVenue() {
     if (mobileView = false) {
         fourthPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: fourthPageY});}
 }
 function scrollVenueTwo() {
     if (mobileView = false) {
         fifthPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: fifthPageY});}
 }
 function scrollDetails() {
     if (mobileView = false) {
         sixthPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: sixthPageY});}
 }
 function scrollDressCode() {
     if (mobileView = false) {
         seventhPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: seventhPageY});}
 }
 function scrollDressCodeOne() {
     if (mobileView = false) {
         eightPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: eightPageY});}
 }
 function scrollDressCodeTwo() {
     if (mobileView = false) {
         ninthPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: ninthPageY});}
 }
 function scrollDressCodeThree() {
     if (mobileView = false) {
         tenthPage.scrollIntoView();}
-    if (mobileView = true) {
+    if (screenWidth <= 800) {
         window.scrollTo({top: tenthPageY});}
 }
 
