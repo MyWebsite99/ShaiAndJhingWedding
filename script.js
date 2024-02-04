@@ -17,7 +17,6 @@ let btn_group = document.getElementById("btn_group");
 let popUp = document.getElementById("popUp");
 let popUp_btn = document.getElementById("popUp_btn");
 let detailsPageTwo = false;
-let mobileView = false;
 let heigthFormula = window.innerHeight * 0.8;
 let ulHeightFormula = window.innerHeight * 0.03;
 let popUpHeightFormula = window.innerHeight * 0.4;
@@ -29,17 +28,6 @@ let popUp_btnLeftFormula = window.innerWidth * 0.45;
 let heightMarForm = window.innerHeight * 0.1; 
 let btnHeightMarForm = window.innerHeight * 0.03;
 let screenWidth = window.innerWidth; 
-let iosScroll = '-' + window.innerWidth * 0.04;
-const firstPageY = firstPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const secondPageY = secondPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const thirdPageY = thirdPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const fourthPageY = fourthPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const fifthPageY = fifthPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const sixthPageY = sixthPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const seventhPageY = seventhPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const eightPageY = eightPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const ninthPageY = ninthPage.getBoundingClientRect().top + window.scrollY + iosScroll;
-const tenthPageY = tenthPage.getBoundingClientRect().top + window.scrollY + iosScroll;
 
 if (screenWidth <= 800) {
     popUp.style.width = popUpWidthFormula + 'px';
@@ -84,69 +72,35 @@ function AcceptBtn() {
     MusicOST.loop = true;
 }
 
-if (screenWidth <= 800) {
-    mobileView = true;
-}
-
 function scrollHome() {
-    if (mobileView = false) {
-        firstPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: firstPageY});}
+    firstPage.scrollIntoView();
 }
 function scrollHomeTwo() {
-    if (mobileView = false) {
-        secondPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: secondPageY});}
+    secondPage.scrollIntoView();
 }
 function scrollEntourage() {
-    if (mobileView = false) {
-        thirdPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: thirdPageY});}
+    thirdPage.scrollIntoView();
 }
 function scrollVenue() {
-    if (mobileView = false) {
-        fourthPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: fourthPageY});}
+    fourthPage.scrollIntoView();
 }
 function scrollVenueTwo() {
-    if (mobileView = false) {
-        fifthPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: fifthPageY});}
+    fifthPage.scrollIntoView();
 }
 function scrollDetails() {
-    if (mobileView = false) {
-        sixthPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: sixthPageY});}
+    sixthPage.scrollIntoView();
 }
 function scrollDressCode() {
-    if (mobileView = false) {
-        seventhPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: seventhPageY});}
+    seventhPage.scrollIntoView();
 }
 function scrollDressCodeOne() {
-    if (mobileView = false) {
-        eightPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: eightPageY});}
+    eightPage.scrollIntoView();
 }
 function scrollDressCodeTwo() {
-    if (mobileView = false) {
-        ninthPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: ninthPageY});}
+    ninthPage.scrollIntoView();
 }
 function scrollDressCodeThree() {
-    if (mobileView = false) {
-        tenthPage.scrollIntoView();}
-    if (screenWidth <= 800) {
-        window.scrollTo({top: tenthPageY});}
+    tenthPage.scrollIntoView();
 }
 
 function pageOne() {
@@ -191,8 +145,4 @@ function detailsTwo() {
     sixthPage.style.backgroundImage = "url('files/Gifts_page-0001.jpg')";
     arrow_right.style.display = "none";
     detailsLast_wall.style.cursor = "pointer";
-}}
-function detailsLast() {
-        if (detailsPageTwo === true) {
-            window.scrollTo({top: seventhPageY});
 }}
