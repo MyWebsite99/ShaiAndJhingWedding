@@ -82,6 +82,10 @@ ul {
         height: 3%;
         font-size: 0.8rem;
     }
+
+    @media screen and (max-width: 350px) {
+        font-weight: normal;
+    }
 }
 
 #mainFrame {
@@ -591,7 +595,7 @@ form {
 }
 
 #fname, #lname {
-    margin: 0.1vh;
+    margin: 1vh;
 }
 
 #fname label, #lname label, #phone label, #com label, #answer label{
