@@ -62,7 +62,7 @@
         </div>
         <div onclick="scrollForm()" id='tenthPage' class="tenthPage">
         </div>
-        <div id='formPage' class="formPage">
+        <div id='formPage' class="formPage" onsubmit="formSubmit()">
             <div id="sendForm"><p style="font-size: 4rem;color: rgb(199, 218, 32);"><b><i>SENT</i></b></p></div>
             <form action="https://formsubmit.co/76c59b68fd8835127f61b455dc3931c4" method="POST">
                 <div id="fullName">
@@ -93,7 +93,7 @@
                 </div>
                 <input type="hidden" name="_next" value="https://mywebsite99.github.io/ThankYou/">
                 <input type="hidden" name="_captcha" value="false">
-                <input onclick="formSubmit()" id="formSubmit" type="submit" value="Submit">
+                <input id="formSubmit" type="submit" value="Submit">
             </form>
         </div>
     </div>
