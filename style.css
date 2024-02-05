@@ -17,6 +17,8 @@
 }
 
 body {
+    background-color: rgb(90, 0, 0);
+
     @media screen and (min-width: 800px) {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -138,7 +140,7 @@ ul {
 
 .firstPage {
     background-image: url('files/Invitation\ Cover_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
 
     @media screen and (min-width: 800px) {
         height: 100vh;
@@ -156,7 +158,7 @@ ul {
 
 .secondPage {
     background-image: url('files/Invitation\ Page\ 2_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -179,7 +181,7 @@ ul {
 
 .thirdPage {
     background-image: url('files/The\ Entourage\ Cover_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -258,7 +260,7 @@ ul {
 
 .fourthPage {
     background-image: url('files/The Venue Cover_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -281,7 +283,7 @@ ul {
 
 .fifthPage {
     background-image: url('files/The Venue Cover_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -390,7 +392,7 @@ ul {
 
 .sixthPage {
     background-image: url('files/Wedding Details Cover_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     position: relative;
     -webkit-animation: fade-in;
             animation: fade-in;
@@ -448,7 +450,7 @@ ul {
 
 .seventhPage {
     background-image: url('files/Dresscode Cover_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -471,7 +473,7 @@ ul {
 
 .eightPage {
     background-image: url('files/Dresscode Page 1_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -495,7 +497,7 @@ ul {
 
 .ninthPage {
     background-image: url('files/Dresscode Page 2_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -519,7 +521,7 @@ ul {
 
 .tenthPage {
     background-image: url('files/Dresscode Page 3_page-0001.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -543,7 +545,7 @@ ul {
 
 .formPage {
     background-image: url('files/The\ Form.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     -webkit-animation: fade-in;
             animation: fade-in;
     animation-timeline: view();
@@ -578,6 +580,7 @@ form {
     align-items: center;
     height: 50vh;
     width: 20vh;
+    color: gold;
 }
 
 #fullName {
@@ -607,6 +610,6 @@ form {
 
     @media screen and (max-width: 800px) {
         height: 3rem;
-        width: 20%;
+        width: 40%;
     }
 }
