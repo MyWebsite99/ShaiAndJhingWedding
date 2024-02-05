@@ -8,6 +8,7 @@ let seventhPage = document.getElementById('seventhPage');
 let eightPage = document.getElementById('eightPage');
 let ninthPage = document.getElementById('ninthPage');
 let tenthPage = document.getElementById('tenthPage');
+let formPage = document.getElementById('formPage');
 let arrow_left = document.getElementById("arrow-left");
 let arrow_right = document.getElementById("arrow-right");
 let pageSix_wall = document.getElementById("pageSix_wall");
@@ -68,6 +69,7 @@ if (screenWidth <= 800) {
     eightPage.style.backgroundImage = "url('longFiles/Dresscode Page 1_page-0001.jpg')";
     ninthPage.style.backgroundImage = "url('longFiles/Dresscode Page 2_page-0001.jpg')";
     tenthPage.style.backgroundImage = "url('longFiles/Dresscode Page 3_page-0001.jpg')";
+    formPage.style.backgroundImage = "url('longFiles/The Form.jpg')";
 }
 
 MusicOST = new Audio('files/BackgroundOST.mp3');
@@ -108,6 +110,9 @@ function scrollDressCodeTwo() {
 }
 function scrollDressCodeThree() {
     tenthPage.scrollIntoView();
+}
+function scrollForm() {
+    formPage.scrollIntoView();
 }
 
 function pageOne() {
