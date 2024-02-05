@@ -35,8 +35,13 @@ let screenWidth = window.innerWidth;
 let screenHeight = window.innerHeight; 
 let pageHeight = firstPage.innerHeight;
 let pageWidth = firstPage.innerWidth;
+let sendForm = document.getElementById("sendForm");
 
 if (screenWidth <= 1100) {
+    sendForm.style.width = popUpWidthFormula + 'px';
+    sendForm.style.height = popUpHeightFormula + 'px';
+    sendForm.style.top = popUpTopFormula + 'px';
+    sendForm.style.margin = '0px ' + btnHeightMarForm + 'px 0px ' + btnHeightMarForm + 'px';
     popUp.style.width = popUpWidthFormula + 'px';
     popUp.style.height = popUpHeightFormula + 'px';
     popUp.style.top = popUpTopFormula + 'px';
@@ -105,8 +110,9 @@ if (screenWidth <= 1100) {
 MusicOST = new Audio('files/BackgroundOST.mp3');
 
 function AcceptBtn() {
-    document.getElementById("popUp").style.display = "none";
-    document.getElementById("popUp_btn").style.display = "none";
+    popUp.style.display = "none";
+    popUp_btn.style.display = "none";
+    sendForm.style.display = "none";
     MusicOST.play();
     MusicOST.loop = true;
 }
@@ -222,3 +228,6 @@ function detailsTwo() {
         arrow_right.style.display = "none";
         arrow_left.style.display = "block";
 }}
+function formSubmit() {
+    sendForm.style.display = 'block';
+}
